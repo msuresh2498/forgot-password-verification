@@ -1,38 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/011/171/111/original/white-background-with-orange-geometric-free-vector.jpg');
+}
+
+.signup-container {
+  width: 25%;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  padding-top: 150px;
+}
+
+.forgot-pwd-container {
+  width: 25%;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  padding-top: 150px;
+}
+
+.signup-head {
+  letter-spacing: 0.1rem;
+  font-family: 'Nova Oval', cursive;
+}
+
+.signup-textfield {
+  background-color: white;
+}
+
+.form-btn {
+  height: 35px;
+  font-size: 16px;
+  background-color: rgb(244, 144, 31);
   color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Nova Oval', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.login-btn {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(63, 185, 233);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-text {
+  font-family: 'Nova Oval', cursive;
+}
+
+.forgot-btn {
+  text-align: right;
+  padding-right: 10px;
+  font-family: 'Nova Oval', cursive;
+  text-decoration: none;
+  cursor: pointer !important;
+  font-weight: 600;
+}
+
+.reset-msg {
+  font-family: 'Nova Oval', cursive !important;
+}
+
+.userDetails {
+  margin: 0;
+  padding: 150px;
+  font-family: 'Nova Oval', cursive !important;
+  font-size: 40px;
+  font-weight: 800 !important;
+}
+
+.form_data {
+  padding: 150px;
+  margin: 0;
+
+}
+
+.newpwd-form {
+  display: grid;
+  width: 450px;
+  gap: 10px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.newpwd-head {
+  font-family: 'Nova Oval', cursive !important;
+}
+.not-found-head{
+  padding-top: 150px;
+  font-family: 'Nova Oval', cursive !important;
+  font-size: 150px;
+  margin: 0;
+}
+.not-found-subhead{
+  font-family: 'Nova Oval', cursive !important;
+  font-size: 40px;
+  margin: 0;
 }
